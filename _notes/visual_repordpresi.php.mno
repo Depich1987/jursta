@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_select_repordrpresi" value="name:no_ordonnance;datatype:int,name:noordonnace_ordonnance;datatype:string,name:dispositif_ordonnance;datatype:blob,name:observation_ordonnance;datatype:blob,name:lien_fich;datatype:string,name:Id_admin;datatype:int,name:date_creation;datatype:datetime,name:no_rolegeneral;datatype:int,name:id_juridiction;datatype:int,name:no_rolegeneral;datatype:int,name:noordre_rolegeneral;datatype:string,name:date_rolegeneral;datatype:date,name:demandeur_rolegeneral;datatype:blob,name:defendeur_rolegeneral;datatype:blob,name:objet_rolegeneral;datatype:blob,name:observation_rolegeneral;datatype:blob,name:Id_admin;datatype:int,name:date_creation;datatype:datetime,name:dateaudience_rolegeneral;datatype:date,name:section_rolegeneral;datatype:string,name:id_categorieaffaire;datatype:int,name:id_juridiction;datatype:int" />
+</info>

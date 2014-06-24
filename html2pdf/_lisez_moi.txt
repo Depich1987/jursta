@@ -1,0 +1,95 @@
+*******************************************************
+** Ce programme est distribu&eacute; sous la licence LGPL,  **
+** reportez-vous au fichier _LGPL.txt ou &agrave;           **
+** http://www.gnu.org/licenses/lgpl.html             **
+** pour en savoir plus.                              **
+**                                                   **
+**  Copyright 2008-2011 par Laurent Minguet          **
+*******************************************************
+*******************************
+* HTML2PDF v4.03 - 27/05/2011 *
+*******************************
+
+Utilisation :
+------------
+ - n&eacute;cessite au minimum PHP5
+
+ - regardez les exemples fournis, et lisez le wiki pour comprendre le fonctionnement.
+
+ - il est TRES IMPORTANT de fournir du HTML 4.01 valide au convertisseur,
+   mais seulement ce que contient le <body>
+
+ - pour les borders : il est conseill&eacute; qu'ils soient au format "solid 1mm #000000"
+
+ - pour les paddings : ils ne sont applicables qu'aux balises table, th, td, div, li
+
+ - Une fonte par d&eacute;faut peut être pr&eacute;cis&eacute;e,au cas ou la fonte demand&eacute;e n'existe pas ou si aucune fonte n'est indiqu&eacute;e :
+     $html2pdf->setDefaultFont('Arial');
+
+ - la possibilit&eacute; de prot&eacute;ger vos PDF est pr&eacute;sente, CF Exemple 7.
+
+ - Certains tests peuvent être activ&eacute;s (true) ou de d&eacute;sactiv&eacute;s(false) :
+     * m&eacute;thode setTestIsImage      : tester que les images existent bien
+     * m&eacute;thode setTestTdInOnePage  : tester que le contenu des TDs rentre sur une seule page
+     * m&eacute;thode setTestIsDeprecated : tester que les anciennes propri&eacute;tes des balises sp&eacute;cifiques ne sont plus pr&eacute;sentes
+
+ - Un mode DEBUG permettant de connaitre les ressources utilis&eacute;es lors de la construction du PDF est pr&eacute;sent.
+   Il est activable en rajoutant la commande suivante juste apr&egrave;s le constructeur (cf exemple 0):
+      $htmlpdf->setModeDebug();
+
+ - Certaines balises sp&eacute;cifiques ont &eacute;t&eacute; introduites :
+     * <page></page>  (CF Exemple 7 & wiki)
+         permet de d&eacute;finir le format, l'orientation, les marges left, right, top et bottom, l'image
+         et la couleur de fond d'une page, sa taille et position, le footer.
+         Il est &eacute;galement possible de garder les header et footer des pages pr&eacute;c&eacute;dentes,
+         grâce &agrave; l'attribue pageset="old" (CF Exemple 3 & 4 & wiki)
+ 
+     * <page_header></page_header> (CF Exemple 3 & wiki)
+
+     * <page_footer></page_footer> (CF Exemple 3 & wiki)
+
+     * <nobreak></nobreak> (cf wiki)
+         permet de forcer l'affichage d'une partie sur une même page.
+         Si cette partie ne rentre pas dans le reste de la page, un saut de page est
+         effectu&eacute; avant.
+ 
+    * <barcode></barcode>  (CF Exemples 0 et 9 & wiki)
+         permet d'ins&eacute;rer des barcodes dans les pdfs, CF Exemples 0 et 9
+         Les types de codebar possible sont ceux de TCPDF
+         
+     * <qrcode></qrcode> (CF Exemple 13 & wiki)
+         permet d'ins&eacute;rer un codebar &agrave; 2 dimensions de type QRcode
+         (QR Code is registered trademark of DENSO WAVE INCORPORATED | http://www.denso-wave.com/qrcode/)
+
+     * <bookmark></bookmark>  (CF Exemples 7 & About & wiki)
+         permet d'ins&eacute;rer des bookmarks dans les pdfs, CF Exemple 7 et About.
+         Il est &eacute;galement possible de cr&eacute;er un index automatiquement en fin de
+         document (cf wiki)
+
+     * propri&eacute;t&eacute; css "rotate" :
+         valeurs possibles : 0, 90, 180, 270
+         applicable uniquement sur les divs (cf exemple 8)
+
+change log :
+-----------
+ regardez le fichier _changelog.txt
+
+Aide et Support :
+----------------
+ pour toutes questions et rapport de bug, merci d'utiliser exclusivement le lien de support ci-dessous.
+ Je ne r&eacute;pondrai &agrave; aucune question en dehors, afin que tout le monde puisse profiter des r&eacute;ponses.
+
+Informations :
+-------------
+ Programmeur : Spipu
+      email   : webmaster@html2pdf.fr
+      site    : http://html2pdf.fr/
+      wiki    : http://html2pdf.fr/fr/wiki
+      support : http://html2pdf.fr/fr/forum
+
+Remerciement :
+-------------
+ * Olivier Plathey pour avoir conçu FPDF
+ * Nicola Asuni pour les modifications qu'il a accept&eacute; d'apporter &agrave; TCPDF
+ * yAronet pour l'h&eacute;bergement du forum de support
+ * toutes les personnes qui m'ont aid&eacute; &agrave; d&eacute;velopper cette librairie, et &agrave; traduire les diff&eacute;rents textes

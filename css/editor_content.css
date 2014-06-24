@@ -1,0 +1,29 @@
+/* Editor Styles */
+
+body {text-align:left; background-color:#fff;}
+p {
+	color:#333;
+	font: 12px/14px Arial, Helvetica, sans-serif;
+}
+h1 {font: bold 1.6em/1.8em Arial, Helvetica, sans-serif;margin: 1.2em 0;color:#98D60A;}
+h2 {font: bold 1.3em/1.6em Arial, Helvetica, sans-serif;margin: 1.2em 0;color:#0066CC;}
+h3 {font: bold 1.2em/1.5em Arial, Helvetica, sans-serif;margin: 1.2em 0;color:#323232;}
+h4 {font: bold 1.1em/1.4em Arial, Helvetica, sans-serif;margin: 1.2em 0;color:#666666;}
+h5 {font: bold 1em/1.3em Arial, Helvetica, sans-serif;margin: 1.2em 0;color:#CCCCCC;}
+h6 {font: bold 1em/1.3em Arial, Helvetica, sans-serif;margin: 1.2em 0;color:#CCCCCC;}
+.contentheading,a.contentpagetitle:link,a.contentpagetitle:visited {
+	color:#0066CC;
+	font-size: 18px;
+	font-family: "Trebuchet MS", Geneva, sans-serif;
+	font-weight: normal;
+	padding: 0 0 0px 0;
+	text-align: left;
+	text-transform:uppercase;
+	line-height: 20px;
+	text-decoration:none;
+
+}
+ol {margin-left:25px;}
+blockquote {padding:5px; border: 1px dashed #cecece; background: #ececec; color:#323232; margin:3px; font-size:.90em;}
+ul#checklist {padding-left:5px; list-style:none;}
+#checklist li {background:url(../images/checklist.png) no-repeat left center; padding-left:16px; margin: .25em 0 .25em 0;}

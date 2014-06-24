@@ -1,0 +1,23 @@
+#twrap {
+	width: 90%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 0px;
+}
+
+#wrapper {
+	width: 90%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#theme li#theme-fluid {
+	display:none;
+	}
+#theme li#theme-fixed {
+	display:inline;
+	}

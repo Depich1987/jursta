@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_select_regpieces" value="name:id_regpiece;datatype:int,name:nordre_regpiece;datatype:string,name:autorigine;datatype:string,name:Nopv;datatype:string,name:datepv;datatype:date,name:nomprevenus;datatype:blob,name:naturescelle;datatype:string,name:lieuconserv;datatype:string,name:nojugdecision;datatype:string,name:nordestruction;datatype:string,name:nordremise;datatype:string,name:daterestitution;datatype:date,name:nocni;datatype:string,name:emargement;datatype:string,name:observation;datatype:blob,name:Id_admin;datatype:int,name:date_creation;datatype:datetime,name:id_juridiction;datatype:int" />
+</info>

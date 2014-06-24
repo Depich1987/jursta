@@ -1,0 +1,578 @@
+body {
+	background-color: #999999;
+	font-family: "Trebuchet MS", "Geneva CY", Verdana;
+	font-size: 12px;
+	color: #454545;
+}
+*, html, body {margin:0;padding:0;}
+p, div, td {line-height:135%;}
+/*Basic Links*/
+a:link, a:visited {color:#669900;text-decoration:underline;}
+a:hover {color: #666666;text-decoration:none;}
+a.img{border:0;}
+
+a:focus {outline:0;}
+ul {padding-left:20px;}
+
+/*Begin Header and Logo*/
+#headerblock {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*CSS for logo. This is an image replaced link as an H1 tag*/
+
+/*Controls logo hotspot width*/
+#logo {height:60px;float:left; margin-left:15px;}
+#logo h1 a{ width:208px;display:block;text-indent:-5000px;text-decoration:none;line-height:60px; margin-top:17px;}
+#logo h1 {background:url(../images/logo.png) top left no-repeat;}/*Set the line-height and width equal to your logo image here*/
+#logo h1{margin:0;padding:0;}
+
+h1 {
+	margin: 1em 0;
+	color:#0081BA;
+	font-family: "Trebuchet MS", "Geneva CY", Verdana;
+	font-size: 2em;
+	line-height: 2em;
+	font-weight: bold;
+	text-transform: none;
+}
+h2 {
+	margin: 1em 0;
+	color:#333333;
+	font-family: "Trebuchet MS", "Geneva CY", Verdana;
+	font-size: 1.6em;
+	line-height: 1.6em;
+	font-weight: bold;
+	text-transform: none;
+}
+
+h3 {
+	margin: 1em 0;
+	color:#666666;
+	font-family: "Trebuchet MS", "Geneva CY", Verdana;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	font-weight: bold;
+	text-transform: none;
+}
+
+
+
+
+/*The Styleswitcher Buttons*/
+#accessbuttons {
+	float:right;
+	position:relative;
+	top:0px;
+	right:-16px;
+	width:159px;
+	height:46px;
+	background: url(../images/navicons.png) no-repeat center top;
+	margin:0;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 32px;
+}
+.access {margin:0px 0px 0px 8px; padding:0;}
+a.access {font-size:8px;text-decoration: none;white-space: nowrap;}
+.access img {border:none;margin:0px 3px 0px 0px;padding:0;width:20px;height:20px;font-size:5px;}
+#theme {position: absolute;top: 12px;right: 59px;margin: 0;padding: 0;list-style: none;}
+#theme li {margin: 0;padding: 0;display:inline;}
+#theme li#theme-fixed {display:none;}
+a#rss {position:relative; margin:0px 0px 0px 20px;}
+
+/*End Header and Logo*/
+
+#twrap {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 0px;
+}
+#pagebg {
+	background-image: url(../images/bodybg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin:0;
+	padding:0;
+}
+#wrapper {
+	width: 960px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+}
+td#main { margin:0; padding:0;}
+
+table#maintable {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+td#teaserbox {
+	background-image: url(../images/teaserbar.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	margin:0px;
+	padding-bottom:19px;
+}
+#teasers div {
+	margin: 0;
+	padding:0;
+	}
+td#maincol {
+	margin: 0px;
+	padding: 0px;
+	
+}
+td#maincol .inside {
+padding: 15px;
+}
+#leftcol .inside, #rightcol .inside {
+	width:200px;
+	padding:5px;
+	margin:0;
+	position: relative;
+}
+td#rightcol {
+	width:200px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/modulefade.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+td#leftcol {
+	width:200px;
+	padding: 0px;
+	background-image: url(../images/modulefade.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+
+}
+td#leftshadow {
+	background-image: url(../images/wrapleft.png);
+	background-repeat: repeat-y;
+	background-position: left bottom;
+	margin: 0px;
+	padding: 0px;
+	width: 5px;
+	vertical-align: top;
+}
+td#rightshadow {
+	background-image: url(../images/wrapright.png);
+	background-repeat: repeat-y;
+	background-position: right bottom;
+	margin: 0px;
+	padding: 0px;
+	width: 5px;
+	vertical-align: top;
+}
+#footerbar {
+	clear:both;
+	width:100%;
+	height:18px;
+	background-image: url(../images/bottombar.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+}
+#footerbar .rightcorner {
+	float:right;
+	width:18px;
+	height:18px;
+	padding: 0;
+	margin: 0;
+	background-image: url(../images/rightcorner.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+/*All Modules*/
+.moduletable h3
+{
+	text-indent:18px;
+	margin:0;
+	padding:5px 0px;
+	color:#000;
+	background-image: url(../images/moduleh3.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	position:relative;
+	font-family: "Lucida Grande", "Trebuchet MS", Tahoma;
+	font-size: 1.16em;
+	line-height: 2em;
+	font-weight: bold;
+}
+.moduletable p
+{font-size:1em;line-height:1.15em; color:#fff;}
+.moduletable {
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+
+/*USER 4-5-6 Modules (top teasers)*/
+
+a.linkS1 {text-decoration:none; width:274px; height:135px; text-indent:-50000em; background:url(../images/linkS1.png) no-repeat center; display:block; text-align:center; margin: 0px auto 0px auto;}
+a.linkS2 {text-decoration:none; width:274px; height:135px; text-indent:-50000em; background:url(../images/linkS2.png) no-repeat center; display:block; text-align:center; margin: 0px auto 0px auto;}
+a.linkS3 {text-decoration:none; width:274px; height:135px; text-indent:-50000em; background:url(../images/linkS3.png) no-repeat center; display:block; text-align:center; margin: 0px auto 0px auto;}
+a.linkS4 {text-decoration:none; width:842px; height:162px; text-indent:-50000em; background:url(../images/headergraphic.png) no-repeat center; display:block; text-align:center; margin: 0px auto 0px auto;}
+
+
+.moduletableS1 {background:#000000; padding:5px;}
+.moduletableS2 {background:#333333; padding:5px;}
+.moduletableS3 {background:#669900; padding:5px;}
+.moduletableS4 {background:#FFFFFF; padding:0px; margin:0px;}
+
+
+.moduletableS1 p, .moduletableS1 div, .moduletableS1 td, .moduletableS1 a, li.mostreadS1 a, li.mostreadS1 a:visited, li.latestnewsS1 a, li.latestnewsS1 a:visited {color:#FFF;}
+.moduletableS2 p, .moduletableS2 div, .moduletableS2 td, .moduletableS2 a, li.mostreadS2 a, li.mostreadS2 a:visited, li.latestnewsS2 a, li.latestnewsS2 a:visited {color:#FFF;}
+.moduletableS3 p, .moduletableS3 div, .moduletableS3 td, .moduletableS3 a, li.mostreadS3 a, li.mostreadS3 a:visited, li.latestnewsS3 a, li.latestnewsS3 a:visited {color:#FFF;}
+
+.moduletableS1 h3 {color:#FFF; padding:10px 0px 10px 25px; background:url(../images/contentheading.png) no-repeat 8px 50%;}
+.moduletableS2 h3 {color:#FFF; padding:10px 0px 10px 25px; background:url(../images/contentheading.png) no-repeat 8px 50%;}
+.moduletableS3 h3 {color:#FFF; padding:10px 0px 10px 25px; background:url(../images/contentheading.png) no-repeat 8px 50%;}
+
+#teasers .moduletable {
+}
+
+.back_button, .pagenav_prev, .pagenav_next {text-align:center;}
+
+/*USER 5-6-7 Modules (bottom teasers)*/
+
+td#teaserbottom .moduletable h3
+{
+	text-indent:20px;
+	margin:0;
+	padding:0;
+	color:#FFF;
+	background-image: url(../images/tbottomh3.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	position:relative;
+	font-family: "Lucida Grande", "Trebuchet MS", Tahoma;
+	font-size: 1em;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+td#teaserbottom {
+	background-color: #181818;
+	border-top-width: 10px;
+	border-top-style: solid;
+	border-top-color: #669900;
+	padding: 5px;
+	background-image: url(../images/teaserbottombg.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	margin: 0px;
+}
+#teaserbottom p, #teaserbottom div, #teaserbottom td {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+/*Joomla Specific Display*/
+.small,.modifydate,.createdate {color: #999;text-align: left;font: 9px/11px Tahoma, Verdana, Helvetica;text-transform: uppercase;}
+.createdate {top:-3px;}
+.inputbox {color:#ccc;background:#fff;border: 1px solid #999;color:#333;}
+.button {background:#666;border: 1px solid #000;color:#ccc;line-height: 100%;font-size: 0.75em;padding: 3px;}
+.article_seperator {width:100%;height:16px;}
+#contact_text {width:300px;}
+table.contentpaneopen, table.contentpane, table.blog {border-collapse: collapse;padding: 0;margin: 0;width: 100%;}
+ul.latestnews, ul.latestnewsS1, ul.latestnewsS2, ul.latestnewsS3, ul.mostread, ul.mostreadS1, ul.mostreadS2, ul.mostreadS3
+{list-style:none;padding-left:8px;margin:0px;}
+
+.mostread li, .mostreadS1 li, .mostreadS2 li, .mostreadS3 li,
+.latestnews li, .latestnewsS1 li, .latestnewsS2 li, .latestnewsS3 li
+{padding-bottom:2px;}
+div div .syndicate div {margin:5px; padding:0;}
+
+
+/*Joomla Tables*/
+td.sectiontableheader {color: #FFF;font-weight: bold; background:#222;height: 25px;padding: 4px;}
+tr.sectiontableentry1 td {padding: 4px;background-color: #f8f8f8;}
+tr.sectiontableentry2 td {padding: 4px;background-color: #F2F2F2;}
+td.sectiontableentry1 {padding: 4px;background-color: #f8f8f8;}
+td.sectiontableentry2{padding: 4px;background-color: #F2F2F2;}
+.sectiontableentry2 a, .sectiontableentry1 a  {padding-left:5px;}
+
+/*Read More Link Styles*/
+a.readon, a.readon:hover{margin-top: 10px;display: block;float: right;line-height: 12px;background: url(../images/readon.gif) no-repeat left center;text-indent: 16px;}
+
+/*Polls*/
+table.pollstableborder td {padding:0; text-align:left; background:none;}
+.pollstableborder td {text-align:left; font: 0.9em Arial, Helvetica, sans-serif; padding: 3px 0px 3px 5px; vertical-align:middle;}
+
+/*Print and Email View*/
+body.contentpane {background:#fff}
+
+/*Keeps the blog tables from crowding*/
+table.contenttoc {margin: 5px;padding: 0px;float:right;}
+
+/*Article Index*/
+table.contenttoc {margin:5px;padding:5px;}
+table.contenttoc td {padding: 0 7px;}
+table.contenttoc th {padding: 0px 10px;font-size: 1em;color: #ccc;background: #333;}
+
+.contentheading {width:100%; white-space:nowrap;}
+
+/*Content Links*/
+
+td.contentheading, .contentheading {
+	color:#000;
+	text-align: left;
+	text-decoration:none;
+	font: normal 1.5em/1.5em "Trebuchet MS", Geneva, sans-serif;
+	background-image: url(../images/contentheading.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 18px;
+}
+a.contentpagetitle:link,a.contentpagetitle:visited {
+	color:#000;
+	text-align: left;
+	text-decoration:none;
+	font: normal 1.0em/1.0em "Trebuchet MS", Geneva, sans-serif;
+}
+
+a.contentpagetitle:hover {color:#669900;text-decoration:none;}
+.componentheading {color:#669900;font:bold 1.07em/1.5em Arial, Helvetica, sans-serif;}
+
+
+
+
+/*Some bonus custom styles*/
+ol {margin-left:25px;}
+blockquote {padding:5px; border: 1px dashed #cecece; background: #ececec; color:#323232; margin:3px; font-size:.90em;}
+ul#checklist {padding-left:5px; list-style:none;}
+#checklist li {background:url(../images/checklist.png) no-repeat left center; padding-left:16px; margin: .25em 0 .25em 0;}
+.right{display:none;}
+
+#headercontainer {
+	height: 150px;
+	width: 100%;/*inner element*/
+	margin: 0px;
+	padding: 0px;
+	margin:0px;
+	background-image: url(../images/headerbg.png);
+	background-repeat: repeat-x;
+}
+#header {
+	height:90px;
+	width: 100%;/*inner element*/
+	margin: 0px;
+	padding: 0px;
+	margin:0 auto;
+}
+
+/*Sidenav Menus must be set to flat list in order to be styled correctly otherwise sublevels get messed up*/
+#leftcol ul#mainlevel-sidenav, #leftcol ul#mainlevel
+{list-style:none;padding:0px 15px 0px 5px;position:relative;}
+#leftcol ul#mainlevel-sidenav li a, #leftcol ul#mainlevel li a
+{
+text-decoration:none;
+padding-left:10px;
+padding-top:1px;
+background: url(../images/sidenavup.png) no-repeat left center;
+border-bottom: 1px solid #cacaca;
+display:block;
+font:bold 12px/24px Arial, Tahoma, Verdana, sans-serif;
+color:#666666;
+width:90%;
+}
+/*Sidenav Links*/
+#leftcol ul#mainlevel a:hover, #leftcol ul#mainlevel a#active_menu, #leftcol ul#mainlevel-sidenav a:hover, #leftcol ul#mainlevel-sidenav2 a:hover, #leftcol ul#mainlevel-sidenav a#active_menu-sidenav, #leftcol ul#mainlevel-sidenav2 a#active_menu-sidenav2
+{
+text-decoration:none;
+padding-left:10px;
+padding-top:1px;
+background:url(../images/sidenavover.png) no-repeat left center;
+display:block;
+font:bold 12px/24px Arial, Tahoma, Verdana, sans-serif;
+color:#669900;
+}
+/*Sidenav Menus when used as a vertical (TABLED) style*/
+#leftcol a.mainlevel:link,#leftcol a.mainlevel:visited,#leftcol a.mainlevel-sidenav:link,#leftcol a.mainlevel-sidenav:visited {
+text-decoration:none;
+padding-left:10px;
+padding-top:1px;
+padding-bottom:3px;
+background: url(../images/sidenavup.png) no-repeat 0px 5px;
+border-bottom: 1px solid #cacaca;
+display:block;
+font:bold 12px/16px Arial, Tahoma, Verdana, sans-serif;
+color:#666666;
+margin:0;
+width:90%;
+}
+#leftcol a.mainlevel:hover, #leftcol a.mainlevel-sidenav:hover {
+text-decoration:none;
+padding-left:10px;
+padding-top:1px;
+padding-bottom:3px;
+background:url(../images/sidenavover.png) no-repeat 0px 5px;
+display:block;
+font:bold 12px/16px Arial, Tahoma, Verdana, sans-serif;
+color:#669900;
+width:90%;
+}
+#leftcol a.mainlevel#active_menu, #leftcol a.mainlevel-sidenav#active_menu-sidenav {
+text-decoration:none;
+padding-left:10px;
+padding-top:1px;
+padding-bottom:3px;
+background:url(../images/sidenavover.png) no-repeat 0px 5px;
+display:block;
+font:bold 12px/16px Arial, Tahoma, Verdana, sans-serif;
+color:#669900;
+}
+#leftcol a.mainlevel#active_menu:hover, #leftcol a.mainlevel-sidenav#active_menu-sidenav:hover {
+text-decoration:none;
+padding-left:10px;
+padding-top:1px;
+padding-bottom:3px;
+background: url(../images/sidenavup.png) no-repeat 0px 5px;
+border-bottom: 1px solid #cacaca;
+display:block;
+font:bold 12px/16px Arial, Tahoma, Verdana, sans-serif;
+color:#666666;
+margin:0;
+width:90%;
+
+}
+#leftcol a.sublevel, #leftcol a.sublevel-sidenav {
+font:normal 12px/16px Arial, Tahoma, Verdana, sans-serif;
+}
+
+#navcontainer {
+	background: url(../images/menubg2.png) repeat-x;
+	height: 60px;
+	padding: 0px 0px 0px 15px;
+	overflow: hidden;
+	position:relative;
+}
+
+#navbar {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 60px;
+	background: url(../images/menubar.png) 0 0 no-repeat;
+	padding-left: 2px;
+	font: normal 12px Arial, Helvetica, sans-serif;
+}
+
+#navbar ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#navbar ul ul ul {
+display:none;
+}
+
+#navbar li {
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+	background: url(../images/menubar.png) 100% 0 no-repeat;
+}
+
+#navbar li li {
+	background:none;
+}
+
+#navbar li.mainlevel_current {
+
+
+}
+#navbar ul ul li a {font-weight:bold;}
+
+#navbar li ul {
+	width: 100%;
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:33px;
+	height: 20px;
+	left: 0;
+	
+}
+
+#navbar a {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#navbar a:hover {
+color: #ccc;
+
+}
+#navbar ul#mainlevel li a:hover {
+background:#000 url(../images/navbar_over.png) right center no-repeat;
+color:#fff;
+}
+
+#navbar ul#mainlevel ul li a:hover {
+background:none;
+color:#669900;
+}
+
+
+#navbar li ul a:hover,
+#navbar li.mainlevel_current ul a:hover {
+	color: #000;
+}
+
+#navbar li:hover ul, #navbar li.sfhover ul {
+	display: block;
+	z-index: 6000;
+}
+
+#navbar li a {
+	display: block;
+	float: left;
+	padding: 0 15px;
+	height: 33px;
+	line-height: 33px;
+}
+
+#navbar li:hover a, 
+#navbar li.over a {
+}
+/* sub level links */
+
+#navbar ul li {
+	border-right: 0;
+
+}
+#navbar li ul a, #navbar li.mainlevel_current-navmenu ul a {
+	display: block;
+	float: left;
+	color: #fff;
+	font-weight: normal;
+	padding: 0 10px;
+	background: none;
+	height: 25px;
+	line-height: 25px;
+}
+.designer, .designer a, .designer a:visited {text-align:center; text-decoration:none; margin-bottom:10px; font:11px normal Arial, Helvetica, sans-serif; color:#666;}

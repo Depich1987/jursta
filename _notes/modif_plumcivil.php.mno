@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_select_plumcivil" value="name:id_plumcivil;datatype:int,name:presi_plumcivil;datatype:string,name:greffier_plumcivil;datatype:string,name:accesseurs_plumcivil;datatype:string,name:Substitut_PlumCivil;datatype:string,name:type_affaire;datatype:string,name:observ_plumcivil;datatype:blob,name:Id_admin;datatype:int,name:date_creation;datatype:date,name:date_modif;datatype:date,name:no_rolegeneral;datatype:int,name:id_juridiction;datatype:int,name:no_rolegeneral;datatype:int,name:noordre_rolegeneral;datatype:string,name:date_rolegeneral;datatype:date,name:demandeur_rolegeneral;datatype:blob,name:defendeur_rolegeneral;datatype:blob,name:objet_rolegeneral;datatype:blob,name:observation_rolegeneral;datatype:blob,name:Id_admin;datatype:int,name:date_creation;datatype:datetime,name:dateaudience_rolegeneral;datatype:date,name:chambre_rolegeneral;datatype:string,name:section_rolegeneral;datatype:string,name:id_categorieaffaire;datatype:int,name:id_juridiction;datatype:int" />
+	<infoitem key="UD_select_date" value="name:date_creation;datatype:date,name:date_modif;datatype:date" />
+</info>

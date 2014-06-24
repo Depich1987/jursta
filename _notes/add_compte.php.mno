@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_typejuridiction" value="name:id_typejuridiction;datatype:int,name:lib_typejuridiction;datatype:string" />
+	<infoitem key="UD_liste_juridiction" value="name:id_juridiction;datatype:int,name:lib_juridiction;datatype:string,name:id_commune;datatype:string,name:id_typejuridiction;datatype:int,name:id_juridictiontutelle;datatype:int,name:annee;datatype:int" />
+</info>

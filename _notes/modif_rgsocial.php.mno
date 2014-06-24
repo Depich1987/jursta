@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_select_rgsocial" value="name:no_rgsocial;datatype:int,name:noordre_rgsocial;datatype:string,name:date_rgsocial;datatype:date,name:demandeur_rgsocial;datatype:blob,name:defendeur_rgsocial;datatype:blob,name:objet_rgsocial;datatype:blob,name:observation_rgsocial;datatype:blob,name:Id_admin;datatype:int,name:date_creation;datatype:datetime,name:dateaudience_rgsocial;datatype:date,name:id_categorieaffaire;datatype:int,name:chambre_rgsocial;datatype:string,name:id_juridiction;datatype:int" />
+</info>
